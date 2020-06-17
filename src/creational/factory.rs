@@ -22,6 +22,10 @@ impl Beverage for Tea{
 
 pub fn run_factory(){
     println!("FACTORY");
+    let tea = Tea {
+        temperature : 75 
+    };
+    println!("Tea is hot?: {}", tea.is_hot());
 }
 
 
